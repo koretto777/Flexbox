@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;/* default */
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse ;
+
+   margin: 0 auto;
+   max-width: 960px;
+   height: 960px;
+   background-color: blanchedalmond;
+}
+
+.item {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 36px;
+  background-color: coral;
+  border: 2px solid black;
+}
