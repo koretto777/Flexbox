@@ -1,0 +1,27 @@
+body {
+  background-color: cadetblue;
+}
+
+.container {
+  padding: 1rem;
+  background-color: cornflowerblue;
+
+  /* Habilitamos Flexbox */
+  display:flex; 
+}
+
+.item {
+  background-color: darkslateblue;
+}
+
+.tem-flex {
+  background-color:dodgerblue;
+
+  /* Habilitamos Flexbox en un elemento hijo */
+  display:flex;
+}
+
+.item-flex > h2 {
+  color: white;
+  background-color: darkslategray;
+}
