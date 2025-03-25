@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: beige;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    gap: 16px;
+    
+
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    padding: 16px 0;
+  }
+
+  .item {
+    width: 150px;
+    /* height: 50px; */
+    background-color: bisque;
+    border: 1px solid white;
+    text-align: center;
+  }
+
