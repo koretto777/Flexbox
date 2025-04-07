@@ -7,4 +7,113 @@
 body {
     font-family: sans-serif;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    color:rgb(121, 69, 20);
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    font-weight: bold;
+    color:firebrick;
+    text-decoration: none;
+}
+
+a:hover {
+    color: azure;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+aside {
+    padding: 1rem;
+    background-color: rgb(224, 170, 157);
+}
+
+h2 {
+    color: maroon;
+    margin-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+section {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-content: flex-start;
+    background-color: rgb(119, 8, 8);
+}
+
+.card {
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgb(222, 30, 30);
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: cornsilk;
+}
+
+img {
+    border: 0.5rem;
+} 
+
+h3 {
+    margin: 0.5rem 0;
+    color: black;
+}
+
+footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    color: black;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 1rem;
+}
+
+.socialmedia a {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+s
